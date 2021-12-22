@@ -6,7 +6,7 @@
  *@h: head
  *@t: tail
  */
-void qs(int *array, size_t size, int h, int t)
+void qs(int *array, int h, int t, size_t size)
 {
 	int pi = t, a, b = h;
 	int pn = array[t], temp;
